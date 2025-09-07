@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           centerTitle: true,
           title: const Text(
-            'Basketball Score Board',
+            'Toku',
             style: TextStyle(
               fontSize: 18,
               fontFamily: 'Archivo Black',
