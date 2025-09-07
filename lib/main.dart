@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test/screens/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,26 +12,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(
-          centerTitle: true,
-          title: const Text(
-            'Toku',
-            style: TextStyle(
-              fontSize: 18,
-              fontFamily: 'Archivo Black',
-            ),
-          ),
-        ),
-        backgroundColor: Colors.white,
-        body: Container(
-          height: double.infinity,
-          color: Colors.amber,
-        ),
-      ),
+      home: HomePage(),
     );
   }
 }
+
+
 
 
 // final List<ItemModel> numbers = const [
